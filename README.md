@@ -11,7 +11,7 @@ This is a Finance App Backend built with Node.js, Express.js, and MongoDB. It pr
 
 # 📂 Folder Structure
 Finance-App/
-│── models/                # Database models
+│── models/               
 │   ├── User.js            # User model
 │   ├── Transaction.js     # Transaction model
 │── routes/                # API routes
@@ -51,20 +51,20 @@ JWT_SECRET=eYu4sS5HVkgRUwzg
 Server runs on http://localhost:5000
 
 # API 
-🔹 Register User
+# 🔹 Register User
 POST /api/auth/register
 {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "securepassword"
 }
-🔹 Login user
+# 🔹 Login user
 POST /api/auth/login
 {
   "email": "john@example.com",
   "password": "securepassword"
 }
-response:
+# response:
 {
   "token": "jwt-token-here",
   "user": {
@@ -73,7 +73,7 @@ response:
     "email": "john@example.com"
   }
 }
-🔹 Add Transaction (Authenticated)
+# 🔹 Add Transaction (Authenticated)
 POST /api/transactions/add
 Headers: { "Authorization": "Bearer jwt-token-here" }
 {
@@ -81,7 +81,7 @@ Headers: { "Authorization": "Bearer jwt-token-here" }
   "type": "income",
   "description": "Freelance payment"
 }
-🔹 Get Transactions (Authenticated)
+# 🔹 Get Transactions (Authenticated)
 GET /api/transactions/
 Headers: { "Authorization": "Bearer jwt-token-here" }
 
