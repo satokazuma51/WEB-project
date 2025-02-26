@@ -1,0 +1,9 @@
+Finance app/
+│── server.js
+│── routes/
+│   ├── auth.js
+│── controllers/
+│   ├── authController.js  
+│── models/
+│── middleware/
+│── validations/
