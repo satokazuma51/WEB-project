@@ -37,15 +37,17 @@ Security: CORS, dotenv
 Frontend: Basic HTML
 
 # 🚀 Installation & Setup
-#1️⃣ Clone the Repository: git clone https://github.com/yourusername/finance-app.git
+# 1️⃣ Clone the Repository: 
+git clone https://github.com/yourusername/finance-app.git
 cd finance-app
-#2️⃣ Install Dependencies: npm install
-#3️⃣ Setup Environment Variables
+# 2️⃣ Install Dependencies: 
+npm install
+# 3️⃣ Setup Environment Variables
 Create a .env file and add:
 PORT=5000
 MONGO_URI=mongodb+srv://satokazuma51:<eYu4sS5HVkgRUwzg>@cluster1.hf5sp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
 JWT_SECRET=eYu4sS5HVkgRUwzg
-#4️⃣ Start the Server: node server.js
+# 4️⃣ Start the Server: node server.js
 Server runs on http://localhost:5000
 
 # API 
